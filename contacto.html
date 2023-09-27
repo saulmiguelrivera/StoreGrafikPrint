@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GrafikPrint</title>
+    <link rel="shortcut icon" href="img/icono.png">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section id="header" class="dark1">
+        <a href="Inicio.html"><img src="img/graf.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="Inicio.html">Inicio</a></li>
+                <li><a href="Tienda.html">Tienda</a></li>
+                <li><a href="Informacion.html">Información</a></li>
+                <li><a href="Acercade.html">Acerca de</a></li>
+                <li><a class="active" href="contacto.html">Contacto</a></li>
+                <li id="lg-bag"><a href=""><i class="far fa-shopping-bag"></i></a></li>
+                <a id="close" href="#"><i class="far fa-times"></i></a>
+                <a><label class="content-input">
+                    <input type="checkbox" onclick="document.documentElement.classList.toggle('dark-mode')">
+                    <i></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href=""><i class="far fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="page-header" class="parrallax dark1">
+
+        <h2>¿Alguna idea para imprimir?</h2>
+        <p>Deja un mensaje, nos gusta escucharte</p>
+
+    </section>
+
+    <section id="contact-details" class="section-p1">
+        <div class="details">
+            <span>Contacto</span>
+            <h2>Visitanos a nuestro local ubicado en San Pedro Garza Garcia</h2>
+            <div>
+                <li>
+                    <i class="fal fa-map"></i> Juárez 220, San Pedro, 66230 San Pedro Garza García, N.L.
+                </li>
+                <li>
+                    <i class="far fa-envelope"></i> info@grafikprint.mx
+                </li>
+                <li>
+                    <i class="fas fa-phone-alt"></i> 81 1772 3172
+                </li>
+                <li>
+                    <i class="far fa-clock"></i> Lunes a Viernes: 9:30am a 8:00pm<br>Sábado: 10:00 a 4:00</p>
+                </li>
+            </div>
+        </div>
+
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d308.81653969219093!2d-100.4032401517248!3d25.663424320565902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8662bd7c80cb8d39%3A0x186bfcd8fe916828!2sImprenta%20Grafik%20Print!5e0!3m2!1ses-419!2smx!4v1677130694889!5m2!1ses-419!2smx"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+    <section class="parrallax dark1" id="form-details">
+        <form action="https://formspree.io/f/xnqraggd" method="post">
+            <span>Deja tu mensaje</span>
+            <h2>Cotiza tus ideas! </h2>
+            <input type="text" name="name" placeholder="Tu nombre">
+            <input type="email" name="email" placeholder="E-mail">
+            <textarea name="message" placeholder="Tu mensaje"></textarea>
+            <button class="normal">Enviar</button>
+        </form>
+        <section class="codwhats dark1">
+            <h3>Codigo de Whatsapp</h3>
+            <img src="img/pay/Qrejem.jpg" alt="">
+        </section>
+    </section>
+
+
+    <footer class="section-p1">
+        <div class="col dark1">
+            <img class="logo" src="img/LogGrafik.png" alt="">
+            <h4>Contacto</h4>
+            <p><strong>Direccion:</strong> Juárez 220 66230 San Pedro Garza García, Nuevo León, México</p>
+            <p><strong>Telefono:</strong>81 1772 3172 </p>
+            <p><strong>Whatsapp:</strong> 81 8064 2708</p>
+            <div class="follow">
+                <h4>Siguenos</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-whatsapp"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>Acerca de</h4>
+            <a href="Acercade.html">Sobre Nosotros</a>
+            <a href="Avisoprivacidad.html">Politicas de privacidad</a>
+            <a href="TerminosCondiciones.html">Terminos y Condiciones</a>
+            <a href="contacto.html">Contantanos</a>
+        </div>
+
+        <div class="col install">
+            <p>Aceptamos pagos con tarjeta </p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+
+        <div class="copyright dark1">
+            <p>© 2023, GrafikPrint S.A de C.V</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

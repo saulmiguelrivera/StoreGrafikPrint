@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GrafikPrint</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="shortcut icon" href="img/icono.png">
+    <link rel="stylesheet" href="PropiedadesChatbot/estilobot.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Seccion del CHATBOT-->
+    <div class="contchat">
+        <input type="checkbox" id="btn-mas"></input>
+
+        <div id="phone-wrapper" class="mam">
+            <div id="app">
+                <div id="landing" class="bg-dark text-light">
+                    <span></span>
+                    <div>
+                        <h1 class="mt-3"><img src="img/graf2.png" class="logo" alt=""></h1>
+                    </div>
+                    <form id="form-start">
+                        <input type="text" name="username" id="username" value="" placeholder="Cual es tu nombre?" required>
+                        <button type="submit" id="start-chat">Preguntanos!</button>
+                    </form>
+                </div>
+
+                <div id="header" class="bg-dark">
+                    <div><button id="back-button" class="text-light btn-transparent btn-icon fas fa-arrow-left"></button></div>
+                    <div class="text-light align-center">
+                        <h2>Hola!</h2>
+                    </div>
+
+                    <div>
+                        <button id="nav-icon" class="text-light btn-transparent btn-icon fas fa-bars"></button>
+                        <nav id="nav-container" style="display: none;">
+                            <ul class="nav">
+
+                                <li id="clear-history" class="nav-link"><span class="fas fa-trash-alt"></span>Limpriar chat</li>
+
+                                <hr>
+                                <li id="sign-out" class="nav-link"><span class="fas fa-sign-out-alt"></span>Salir</li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div id="message-board">
+
+
+                </div>
+                <div id="form" class="bg-light">
+                    <div></div>
+                    <div id="message" placeholder="Pregunta aqui" rows="1" contenteditable></div>
+
+                    <a><button id="send" class="normal2">Enviar</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="btn-mas">
+            <label for="btn-mas" class="botonon2"><h3>Chat</h3></label>
+        </div>
+    </div>
+    <!--Seccion del CHATBOT-->
+    <section id="header" class="dark1">
+        <a href="Inicio.html"><img src="img/graf.png" class="logo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="Inicio.html">Inicio</a></li>
+                <li><a class="active" href="Tienda.html">Tienda</a></li>
+                <li><a href="Informacion.html">Información</a></li>
+                <li><a href="Acercade.html">Acerca De</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li id="lg-bag"><a href=""><i class="far fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+                <a><label class="content-input">
+                    <input type="checkbox" onclick="document.documentElement.classList.toggle('dark-mode')">
+                    <i></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href=""><i class="far fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="banner" class="dark1">
+        <h4>Realizamos Servicios De</h4>
+        <h2>INSTALACIÓN <span>- DISEÑO -</span> CORTES</h2>
+        <a href="contacto.html#form-details"><button class="normal">CONTACTANOS POR CORREO</button></a>
+    </section>
+    <section id="product1" class="section-p1">
+        <p>Puedes preguntar por existencia de algun otro material</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="img/productos/p1.png" alt="">
+                <div class="des dark1">
+                    <span>Dimasa</span>
+                    <h5>Couche Grueso 300g o Delgado 150g</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$12</h4>
+                </div>
+                <a href="#"><i class="fab fa-whatsapp cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/productos/p8.png" alt="">
+                <div class="des dark1">
+                    <span>Millar</span>
+                    <h5>Volantes media carta</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$1200</h4>
+                </div>
+                <a href="#"><i class="fab fa-whatsapp cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/productos/p3.png" alt="">
+                <div class="des dark1">
+                    <span>GrafikPrint</span>
+                    <h5>100 Tarjetas de presentación acabado brillante o mate </h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$250</h4>
+                </div>
+                <a href="#"><i class="fab fa-whatsapp cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/productos/p4.png" alt="">
+                <div class="des dark1">
+                    <span>GrafikPrint</span>
+                    <h5>Lona 100² acabado brillante</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$120</h4>
+                </div>
+                <a href="#"><i class="fab fa-whatsapp cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/productos/p5.png" alt="">
+                <div class="des dark1">
+                    <span>GrafikPrint</span>
+                    <h5>Vinil Microperforado 100²</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$400</h4>
+                </div>
+                <a href="#"><i class="fab fa-whatsapp cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/productos/p6.png" alt="">
+                <div class="des dark1">
+                    <span>GrafikPrint</span>
+                    <h5>Planilla etiquetas con silueta</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$50</h4>
+                </div>
+                <a href="#"><i class="fab fa-whatsapp cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/productos/p7.png" alt="">
+                <div class="des dark1">
+                    <span>GrafikPrint</span>
+                    <h5>Vinil Impreso 100²</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$200</h4>
+                </div>
+                <a href="#"><i class="fab fa-whatsapp cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/productos/p10.png" alt="">
+                <div class="des dark1">
+                    <span>GrafikPrint</span>
+                    <h5>Poster Color 90x60 cm</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$100</h4>
+                </div>
+                <a href="#"><i class="fab fa-whatsapp cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/productos/p11.png" alt="">
+                <div class="des dark1">
+                    <span>GrafikPrint</span>
+                    <h5>Poster Blanco y negro 90x60 cm</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$50</h4>
+                </div>
+                <a href="#"><i class="fab fa-whatsapp cart cart"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="newsletter" class="section-p1 parrallax dark1">
+        <div class="newstext">
+            <h4>Información importante para cada producto</h4>
+            <p>Los precios de los productos pueden tener variacion dependiendo de la <span>cantidad, tipo de material y urgencia de tiempo</span>, es recomendable enviar un correo o un <i class="fab fa-whatsapp"></i> Whatsapp para tener una mejor comunicacion
+                sobre especificaciones de su producto. <br><br> Muchas Gracias!</p>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col dark1">
+            <img class="logo" src="img/LogGrafik.png" alt="">
+            <h4>Contacto</h4>
+            <p><strong>Direccion:</strong> Juárez 220 66230 San Pedro Garza García, Nuevo León, México</p>
+            <p><strong>Telefono:</strong>81 1772 3172 </p>
+            <p><strong>Whatsapp:</strong> 81 8064 2708</p>
+            <div class="follow">
+                <h4>Siguenos</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-whatsapp"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>Acerca de</h4>
+            <a href="Acercade.html">Sobre Nosotros</a>
+            <a href="Avisoprivacidad.html">Politicas de privacidad</a>
+            <a href="TerminosCondiciones.html">Terminos y Condiciones</a>
+            <a href="contacto.html">Contantanos</a>
+        </div>
+
+        <div class="col install">
+            <p>Aceptamos pagos con tarjeta </p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+
+        <div class="copyright dark1">
+            <p>© 2023, GrafikPrint S.A de C.V</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src="PropiedadesChatbot/scriptbot.js"></script>
+</body>
+
+</html>
